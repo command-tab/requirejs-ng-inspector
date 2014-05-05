@@ -8,5 +8,5 @@ require.config({
       exports: 'angular'
     }
   },
-  deps: ['bootstrap'] // depend on (and load) app.js
+  deps: ['bootstrap'] // depend on (and load) bootstrap.js
 });
