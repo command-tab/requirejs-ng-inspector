@@ -1,0 +1,13 @@
+<!DOCTYPE html>
+<html><!-- no ng-app: see bootstrap.js -->
+    <head>
+        <title>Angular + RequireJS Test</title>
+    </head>
+    <body ng-controller="DemoCtrl">
+        <label for="foo"> Type Something:
+        <input type="text" size="30" name="foo" id="foo" ng-model="foo">
+        <p>{{ foo }}</p>
+        <script src="require.min.js"></script>
+        <script src="main.js"></script>
+    </body>
+</html>
