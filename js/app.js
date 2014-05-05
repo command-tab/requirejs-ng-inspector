@@ -4,10 +4,10 @@ define([
   // 'controllers' RequireJS module defined in controllers.js
   'angular',
   'controllers'
-], function (ng) {
+], function (angular) {
   'use strict';
   // Define the emtpy Angular app
-  return ng.module('DemoApp', [
+  return angular.module('DemoApp', [
     // Angular module dependencies
     'app.controllers'
   ]);

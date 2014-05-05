@@ -5,9 +5,9 @@ define([
   'require',
   'angular',
   'app'
-], function (require, ng) {
+], function (require, angular) {
   'use strict';
   angular.element(document).ready(function() {
-    ng.bootstrap(document, ['DemoApp']);
+    angular.bootstrap(document, ['DemoApp']);
   });
 });
