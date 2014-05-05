@@ -1,12 +1,12 @@
 require.config({
   noGlobal: true,
   paths: {
-    'angular': 'angular.min'
+    'angular': 'js/lib/angular.min'
   },
   shim: {
     'angular': {
       exports: 'angular'
     }
   },
-  deps: ['bootstrap'] // depend on (and load) bootstrap.js
+  deps: ['js/bootstrap'] // depend on (and load) bootstrap.js
 });
